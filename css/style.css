@@ -333,6 +333,7 @@ Main Components
   -moz-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
 }
+
 .jtline .events-content li.selected {
   /* visible event content */
   position: relative;
@@ -394,6 +395,10 @@ Main Components
 .jtline .events-content em, .jtline .events-content p {
   line-height: 1.6;
 }
+.jtline .events ol li:last-child a.selected {
+    left: 2850px !important;
+ }
+
 @media only screen and (min-width: 768px) {
   .jtline .events-content h2 {
     font-size: 1.25em;
@@ -444,7 +449,6 @@ Main Components
   .header h1 {
     justify-content: flex-start;
   }
-
 
 }
 
